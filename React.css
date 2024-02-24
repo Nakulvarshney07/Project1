@@ -1,0 +1,88 @@
+*{
+    background-color:#f5ffff;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.Nak1{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    
+}
+.nav{
+    text-align: center;
+    
+    margin: 33px 770px 52px 0px;
+    font-family: Roboto Slab,serif;
+}
+.imp{
+    margin-left: 97px;
+}
+.photo{
+    margin-left: 90px;
+   
+}
+.new{
+    color:black;
+    
+}
+.photo2{
+    margin-left: 50px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+.photo3{
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    width: 518px;
+    margin-left: 50px;
+}
+.photo4{
+    margin-left: 55px;
+}
+.top{
+    font-family: Roboto Slab,serif;
+    font-size: 200%;
+   font-weight:900;
+}
+.second{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 393;
+}
+.third{
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 393;
+  
+}
+
+
+.middle{
+    margin-top: 60px;
+    margin-bottom: 57px;
+}
+.new{
+    text-decoration: none;
+    font-size: 130%;
+}
+.click{
+    margin-left: 260px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    
+}
+.bottom{
+    height: 100px;
+    margin-top: 100px;
+}
+.click:active{
+    
+  
+}
