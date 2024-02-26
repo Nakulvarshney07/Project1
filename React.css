@@ -7,82 +7,119 @@
 .Nak1{
     display: flex;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 9rem;
     
 }
 .nav{
-    text-align: center;
+    margin-left: 16.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+    font-family: "MyCustomFont", sans-serif;
     
-    margin: 33px 770px 52px 0px;
-    font-family: Roboto Slab,serif;
 }
+
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./roboto.ttf");
+  }
+
+  body {
+    font-family: "MyCustomFont", sans-serif;
+  }
+
 .imp{
-    margin-left: 97px;
+    margin-left: 6rem;
 }
 .photo{
-    margin-left: 90px;
-   
+    margin-left: 6rem;
+    transition: transform 1s;
+    
 }
 .new{
     color:black;
     
 }
-.photo2{
-    margin-left: 50px;
-    margin-bottom:0px;
-    padding-bottom: 0px;
-}
-.photo3{
-    margin-right: 20px;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:0px;
-    padding-bottom: 0px;
-    width: 518px;
-    margin-left: 50px;
-}
-.photo4{
-    margin-left: 55px;
-}
+
 .top{
-    font-family: Roboto Slab,serif;
+    font-family: "MyCustomFont", sans-serif;
     font-size: 200%;
-   font-weight:900;
+   font-weight:normal;
+   padding: 20px 20px 20px 20px;
+
 }
-.second{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    height: 393;
-}
-.third{
-    margin-top: 0px;
-    padding-top: 0px;
-    height: 393;
-  
-}
+
 
 
 .middle{
-    margin-top: 60px;
-    margin-bottom: 57px;
+    margin-top: 2rem;
+    margin-bottom: 50px;
+    margin-left: 1.4rem;
 }
 .new{
     text-decoration: none;
     font-size: 130%;
+    font-family: "MyCustomFont", sans-serif;
+    font-weight: 700;
+    margin-left: 1.5rem; 
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
 }
-.click{
-    margin-left: 260px;
-    height: 50px;
-    width: 200px;
-    color: white;
-    background-color: black;
-    
-}
+
 .bottom{
-    height: 100px;
-    margin-top: 100px;
-}
-.click:active{
+    padding: 0px;
+    height: 60px;
+    width: 210px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 230px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: "MyCustomFont", sans-serif;
     
   
 }
+
+h2{
+    font-weight: 300;
+}
+
+.new:hover{
+    opacity: 0.6;
+}
+.top:hover{
+  border-bottom: 1px solid rgb(0, 0, 0,0.2); 
+  font-size:210% ;
+  
+}
+.nav:hover{
+    opacity: 0.4;
+    transition: all .3s linear 0s;
+   
+    transition-duration: 0.3s;
+    transition-timing-function:ease-out;
+    transition-delay: 0s;
+    transition-property: all;
+   
+}
+.up{
+    margin-left: 8.4rem;
+}
+.first{
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+.container:hover >.photo{
+    cursor: pointer;
+    transform: scalex(-1);
+
+}
+
+
+
+
+
+
+
