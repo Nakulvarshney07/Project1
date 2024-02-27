@@ -1,21 +1,38 @@
 *{
-    background-color:#f5ffff;
+   
     padding: 0px;
     margin: 0px;
     
+}
+h2{
+    font-weight: 300;
+    padding: 0;
 }
 .Nak1{
     display: flex;
     justify-content: center;
     margin-right: 9rem;
-    
+    height: 320px;
+
 }
 .nav{
-    margin-left: 16.2rem;
+    margin-left: 14.9rem;
     margin-top: 2rem;
     margin-bottom: 2.2rem;
     font-family: "MyCustomFont", sans-serif;
+    padding: 0;
+    padding-left: 0.8rem;
     
+}
+.nav:hover{
+    opacity: 0.4;
+    padding: 0rem;
+    transition: all .3s linear 0s;
+    margin-top: 1.9rem;
+    transition-duration: 0.3s;
+    transition-timing-function:ease-out;
+    transition-delay: 0s;
+    transition-property: all;
 }
 
 @font-face {
@@ -29,14 +46,12 @@
 
 .imp{
     margin-left: 6rem;
+   
+
 }
 .photo{
     margin-left: 6rem;
     transition: transform 1s;
-    
-}
-.new{
-    color:black;
     
 }
 
@@ -51,8 +66,8 @@
 
 
 .middle{
-    margin-top: 2rem;
-    margin-bottom: 50px;
+    margin-top: 1.7rem;
+    margin-bottom: 2.5rem;
     margin-left: 1.4rem;
 }
 .new{
@@ -63,6 +78,8 @@
     margin-left: 1.5rem; 
     margin-bottom: 0rem;
     padding-bottom: 0rem;
+    color:black;
+    
 }
 
 .bottom{
@@ -81,9 +98,18 @@
     
   
 }
+.seven{
+    margin-left: 9rem;
 
-h2{
-    font-weight: 300;
+}
+.AI{
+    height: 317px;
+}
+
+
+
+h3{
+    font-weight: 470;
 }
 
 .new:hover{
@@ -94,16 +120,7 @@ h2{
   font-size:210% ;
   
 }
-.nav:hover{
-    opacity: 0.4;
-    transition: all .3s linear 0s;
-   
-    transition-duration: 0.3s;
-    transition-timing-function:ease-out;
-    transition-delay: 0s;
-    transition-property: all;
-   
-}
+
 .up{
     margin-left: 8.4rem;
 }
@@ -114,6 +131,50 @@ h2{
 .container:hover >.photo{
     cursor: pointer;
     transform: scalex(-1);
+
+}
+.first{
+    animation-name: upset;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+
+}
+.second{
+    animation-name: upset;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.third{
+    animation-name: upset;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+}
+.fourth{
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+}
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.mode{
+    margin-left: 14.4rem;
+    margin-top: 3rem;
+    height: 3.5rem;
+    width: 13.7rem;
+    margin-bottom: 5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: solid;
 
 }
 
