@@ -4,6 +4,9 @@
     margin: 0px;
     
 }
+body{
+  background-color: #f0f8ff;
+}
 h2{
     font-weight: 300;
     padding: 0;
@@ -78,49 +81,25 @@ h2{
     margin-left: 1.5rem; 
     margin-bottom: 0rem;
     padding-bottom: 0rem;
-    color:black;
+    color:blue;
     
-}
-
-.bottom{
-    padding: 0px;
-    height: 60px;
-    width: 210px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: 230px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    font-family: "MyCustomFont", sans-serif;
-    
-  
 }
 .seven{
     margin-left: 9rem;
-
 }
 .AI{
     height: 317px;
 }
-
-
-
 h3{
     font-weight: 470;
 }
-
 .new:hover{
     opacity: 0.6;
 }
 .top:hover{
   border-bottom: 1px solid rgb(0, 0, 0,0.2); 
-  font-size:210% ;
-  
+  font-size:210% ; 
 }
-
 .up{
     margin-left: 8.4rem;
 }
@@ -175,9 +154,65 @@ h3{
     color: white;
     font-size: 1.2rem;
     border: solid;
-
 }
 
+@media screen and (max-width: 600px) {
+
+   
+    .nav{
+        font-size: smaller;
+    }
+    .top{
+        font-size: 60%;
+        font-weight: 900;
+    }
+    .middle{
+        font-size: smaller;
+      
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .new{
+       
+    font-size: 100%;
+    font-family: "MyCustomFont", sans-serif;
+    font-weight: 700;
+    margin-left: 1.5rem; 
+   
+
+    }
+    
+    .container{
+        margin-left: 0rem;
+        display: inline;
+        height: 10px;
+        width: 10px;
+    }
+    .nak1{
+        height: 100px;
+        
+    }
+    .img{
+        height: 200px;
+    }
+    h3{
+        font-size: xx-small;
+    }
+    .top:hover{
+        border-bottom: 1px solid rgb(0, 0, 0,0.2); 
+        font-size:70% ;
+        
+      }
+    .container:hover >.photo{
+        cursor: pointer;
+        transform:none;
+    }
+    .new{
+        font-size: x-small;
+    }
+
+      
+}
 
 
 

@@ -1,0 +1,71 @@
+*{
+    background-color:snow;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    padding-left: 30rem;
+    padding-right: 30rem;
+    transition: all 1 linear 0s;
+    animation-name: service;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#service{
+    color: #132E57;
+    font-size: 330%;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+#range{
+    color: #132E57;
+    margin-bottom: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#IT{
+    color: #132E57;
+    font-size: 150%;
+    margin-bottom: 25px;
+}
+.webp{
+   width: 550px;
+   height: 300px;
+   
+   
+}
+.photo1{
+    margin-top: 35px;
+}
+.content{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+@keyframes service{
+    0%{
+        opacity: 0.2;
+        transform: translateX(-50rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+.heading:hover{
+    opacity: 0.8;
+    border-bottom: 1px solid black;
+    padding-right: 100px;
+}
+#IT:hover{
+    opacity: 0.7;
+}
+.webp:hover{
+    height: 290px;
+    width: 540;
+   transition-timing-function: ease-out;
+    opacity: 0.9;
+    transition-duration: 0.5s;
+    transform:skewX(2deg)
+
+}
