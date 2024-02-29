@@ -1,0 +1,123 @@
+*{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-left:0px;
+    animation-name: service;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+}
+.headop{
+     font-size:xx-large;
+     color: grey;
+     margin-bottom: 60px;
+     text-align: center;
+}
+.topic{
+    color: gray;
+    font-size: 190%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    padding-right: 0px;
+}
+.img1{
+    margin-top: 20px;
+    height: 250px;
+    
+}
+.content{
+    font-weight: 500;
+    font-size: large;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+a{
+    color: blue;
+    text-decoration:blue solid underline;
+}
+li::marker{
+    color: blue;
+}
+.benefit{
+    font-size: x-large;
+    font-weight: 540;
+}
+ul{
+    margin-bottom: 20px;
+}
+p{
+    font-size:17px;
+    
+}
+.card2{
+    height: 369px;
+    width: 624px;
+}
+.box img{
+    position: absolute;
+    backface-visibility: hidden;
+   transition: 1s;
+}
+.box img:nth-child(2){
+    transform: rotateY(180deg);
+}
+.box:hover img:nth-child(2){
+    transform: rotateY(0deg);
+}
+.box:hover img:nth-child(1){
+    transform: rotateY(-180deg);
+}
+.headop:hover{
+    text-decoration:#E726AD solid underline;
+    padding-left: 20px;
+    opacity: 0.8;
+    transition-duration: 1s;
+}
+.topic:hover{
+    padding-left: 20px;
+    opacity: 0.7;
+    transition-duration: 1s;
+    text-decoration:#E726AD solid underline;
+}
+.img1:hover{
+    opacity: 0.9;
+    box-shadow:rgb(20, 20, 50);
+    padding-left: 10px;
+    transition-duration: 1s;
+
+}
+.benefit:hover{
+    text-decoration: black solid underline;
+}
+.botto{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+@keyframes service{
+    0%{
+        opacity: 0.2;
+        transform: translateX(30rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
