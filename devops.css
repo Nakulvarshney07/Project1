@@ -1,9 +1,10 @@
 *{
-    background-color:#F9F9F9;   
+     
     margin: 0px;
     padding: 0px;
 }
 .top{
+    background-color:#F9F9F9; 
     margin-left: 250px;
     animation-name: service;
     animation-duration: 1.5s;
@@ -104,4 +105,37 @@ h3:hover{
       margin-left: 0%;
       width: 100%;
     }
+}
+.hut{
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    padding-top: 70px;
+}
+.tree{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.space{
+    margin-top: 14px;
+   
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgba(255,255,255,0.7);
+     
+   
+}
+
+.help{
+    margin-right: 160px;
+}
+.pp{
+    margin-left: 200px;
+   
+}
+.vector{
+    text-decoration:rgba(255,255,255,0.7)  underline;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgba(255,255,255,0.7);
+    
 }

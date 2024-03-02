@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.top{
+    background-color: rgb(246, 243, 243);
+    margin-bottom: 20px;
+}
+.inner{
+    margin-left: 200px;
+    margin-right: 200px; 
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.heading{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.heading:hover{
+          padding-right: 0px;
+          transition-duration: 1s;
+         
+}
+.content{
+    font-family: sans-serif;
+   color: #5f6f81;
+    font-size: large;
+}
+.topic{
+    margin-top: 20px;
+}
+.topic:hover{
+    text-decoration: black solid underline;
+    opacity: 0.8;
+}
+
+.statement{
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+.sub-topic{
+    font-size: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+         
+}
+.sub-topic:hover{
+    text-decoration: black solid underline;
+    opacity: 0.8;
+}
+
+li::marker{
+    color: black;
+}
+.photo{
+    height: 50px;
+}
+.Img{
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 250px;
+}
+.Img:hover{
+   transform: scale(1.05);
+   transition-duration: 1s;
+
+}
+.box{
+    margin-top: 10px;
+    height: 400px;
+}
+.box img{
+    position: absolute;
+    backface-visibility: hidden;
+   transition: 1.5s;
+}
+.box img:nth-child(2){
+    transform: rotateX(180deg);
+}
+.box:hover img:nth-child(2){
+    transform: rotateX(0deg);
+}
+.box:hover img:nth-child(1){
+    transform: rotateX(-180deg);
+}
+.topic-down{
+    margin-top: 25px;
+}
+@keyframes movement{
+    0%{
+        opacity: 0.2;
+        transform:translateZ(500px);
+    
+    }
+    100%{
+        opacity: 1;
+        transform:translateZ(500px);
+    }
+}
+.hut{
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    padding-top: 70px;
+}
+.tree{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.space{
+    margin-top: 14px;
+   
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgba(255,255,255,0.7);
+     
+   
+}
+
+.help{
+    margin-right: 160px;
+}
+.pp{
+    margin-left: 200px;
+   
+}
+.vector{
+    text-decoration:rgba(255,255,255,0.7)  underline;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgba(255,255,255,0.7);
+    
+}

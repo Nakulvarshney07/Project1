@@ -110,12 +110,13 @@ h3{
 .container:hover >.photo{
     cursor: pointer;
     transform: scalex(-1);
+   
 
 }
 .first{
     animation-name: upset;
     animation-duration: 0.7s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1;   
 
 }
 .second{
