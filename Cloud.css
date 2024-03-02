@@ -11,7 +11,7 @@
 } 
 .top{
   
-    background-image: url("cloud-services.webp");
+    background-image: url("photos/direct/cloud-services.webp");
     background-size: cover ;
     backdrop-filter: blur(10px);
     color: aliceblue;
