@@ -13,8 +13,8 @@
   
     background-image: url("photos/direct/cloud-services.webp");
     background-size: cover ;
-    backdrop-filter: blur(10px);
     color: aliceblue;
+    backdrop-filter: blur(100px);
     
  
     /* background-image: url("cloud-services.webp");
@@ -27,10 +27,10 @@
 
 .main{
     margin-left: 150px;
-    margin-right: 150px;
+   padding-right: 150px;
+    -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
    
-  
- 
     
 }
 .high{
@@ -85,7 +85,7 @@
     padding-left: 19px;
     font-size:large ;
     padding-right: 19px;
-    backdrop-filter: blur(5px);
+   
 
 
 }
@@ -98,7 +98,8 @@
     padding-left: 19px;
     padding-right: 19px;
     font-size:large ;
-    backdrop-filter: blur(5px);
+    
+    
 
 }
 ul{
@@ -208,4 +209,73 @@ h3:hover{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     color: rgba(255,255,255,0.7);
     
+}
+@media screen and (max-width: 320px) {
+    .main{
+     font-size: x-small;
+     width: 565px;
+     margin-left: 100px;
+     
+    }
+    .ul{
+        width: max-content;
+    }
+    .box{
+        width: max-content;
+    }
+    .hut{
+     width:max-content;
+    }   
+ 
+ }
+ @media screen and (max-width: 375px){
+     .main{
+         font-size: xx-small;
+         width:200%;
+         margin-left: 0px;
+         width: max-content;
+        
+        }
+       
+        .hut{
+         width: 100%;
+         
+        }
+        .box{
+            flex-direction: column;
+            width: max-content;
+            justify-content: center;
+            align-items: center;
+        }
+        .ul{
+            width: max-content;
+        }
+ 
+ }
+ @media screen and (max-width: 425px){
+     .hut{
+         width: max-content;
+        }
+        .box{
+            flex-direction: column;
+        }
+        .ul{
+            width: max-content;
+        }
+ 
+ }
+ @media screen and (max-width: 768px){
+    .hut{
+        width: max-content;
+       }
+    .top{
+        width: max-content;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .ul{
+        width: max-content;
+    }
+
 }

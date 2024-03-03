@@ -16,12 +16,13 @@
 }
 .heading{
     margin-bottom: 20px;
-    margin-top: 10px;
-    padding-right: 10px;
+    
+    padding-left: 10px;
 }
 .heading:hover{
-          padding-right: 0px;
-          transition-duration: 1s;
+    padding-left: 0px;
+    transition-duration: 1s;
+    opacity: 0.7;
          
 }
 .content{
@@ -132,4 +133,55 @@ li::marker{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     color: rgba(255,255,255,0.7);
     
+}
+@media screen and (max-width: 320px){
+    .top{
+     font-size: x-small;
+     width: 565px;
+     margin-left: 100px;
+     
+    }
+    .Img{
+        
+        margin-left: 0px;
+    }
+   .footer{
+    width:100%;
+   }
+   .hut{
+    width: max-content;
+   }
+ 
+}
+ @media screen and (max-width: 375px){
+     .top{
+         font-size: xx-small;
+         width:200%;
+         margin-left: 0px;
+        
+        }
+        .inner{
+            margin-right: 0px;
+        }
+       
+        .hut{
+         width: 100%;
+         
+        }
+ 
+ }
+ @media screen and (max-width: 425px){
+     .hut{
+         width: max-content;
+        }
+        .top{
+            width: max-content;
+        }
+ 
+ }
+ @media screen and (max-width: 768px){
+    .hut{
+        width: max-content;
+       }
+
 }

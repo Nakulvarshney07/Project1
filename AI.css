@@ -166,3 +166,57 @@ p{
     color: rgba(255,255,255,0.7);
     
 }
+@media screen and (max-width: 320px){
+   .top{
+    font-size: x-small;
+    width: 565px;
+    margin-left: 100px;
+    
+   }
+   .hut{
+    width: max-content;
+   }
+   .inner{
+    width: max-content;
+}
+
+
+}
+@media screen and (max-width: 375px){
+    .top{
+        font-size: xx-small;
+        width:200%;
+        margin-left: 0px;
+       
+       }
+      
+       .hut{
+        width: max-content;
+        
+       }
+       .inner{
+        width: max-content;
+    }
+
+
+}
+@media screen and (max-width: 425px){
+    .hut{
+        width: max-content;
+       }
+       .inner{
+        width: max-content;
+    }
+
+
+}
+@media screen and (max-width: 768px){
+    .hut{
+        width: max-content;
+       }
+    .inner{
+        width: max-content;
+    }
+
+}
+

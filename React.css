@@ -99,6 +99,8 @@ h3{
 .top:hover{
   border-bottom: 1px solid rgb(0, 0, 0,0.2); 
   font-size:210% ; 
+  padding-bottom: 13px;
+  padding-right: 15px;
 }
 .up{
     margin-left: 8.4rem;
@@ -157,60 +159,56 @@ h3{
     border: solid;
 }
 
-@media screen and (max-width: 600px) {
-
-   
-    .nav{
-        font-size: smaller;
-    }
-    .top{
-        font-size: 60%;
-        font-weight: 900;
-    }
-    .middle{
-        font-size: smaller;
-      
-        margin-top: 10px;
-        margin-bottom: 25px;
-    }
-    .new{
-       
-    font-size: 100%;
-    font-family: "MyCustomFont", sans-serif;
-    font-weight: 700;
-    margin-left: 1.5rem; 
-   
-
-    }
-    
-    .container{
-        margin-left: 0rem;
-        display: inline;
-        height: 10px;
-        width: 10px;
-    }
-    .nak1{
-        height: 100px;
-        
+@media screen and (max-width: 320px) {
+    html{
+        font-size: 10%;
     }
     .img{
-        height: 200px;
+        height: 100px;
     }
-    h3{
+    .Nak1{
+        height: 100px;
+        flex-direction: column-reverse;
+    }
+    .top{
+        font-size: xx-small ;
+       
+    }
+    .nav{
         font-size: xx-small;
     }
-    .top:hover{
-        border-bottom: 1px solid rgb(0, 0, 0,0.2); 
-        font-size:70% ;
-        
-      }
-    .container:hover >.photo{
-        cursor: pointer;
-        transform:none;
+    .write{
+        font-size: xx-small
     }
     .new{
-        font-size: x-small;
+        font-size: xx-small;
+
+        margin-top: 30px;
     }
+    .middle{
+        font-size: xx-small;
+    }
+    
+}
+      
+
+@media screen and (max-width: 375px) {
+    html{
+        font-size: 240%;
+    }
+    .nak1{
+
+    }
+
+      
+}
+@media screen and (max-width: 425px) {
+    html{
+        font-size: 85%;
+    }
+      
+}
+@media screen and (max-width: 768px) {
 
       
 }
