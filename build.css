@@ -134,13 +134,14 @@ li::marker{
     color: rgba(255,255,255,0.7);
     
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .top{
      font-size: x-small;
      width: 565px;
      margin-left: 100px;
      
     }
+    
     .Img{
         
         margin-left: 0px;
@@ -150,6 +151,7 @@ li::marker{
    }
    .hut{
     width: max-content;
+    padding-left: 100px;
    }
  
 }
@@ -166,16 +168,26 @@ li::marker{
        
         .hut{
          width: 100%;
+        
          
         }
  
  }
- @media screen and (max-width: 425px){
+ @media screen and (max-width: 500px){
      .hut{
          width: max-content;
+         text-align: center;
         }
         .top{
+            width: 100vh;
+        }
+        
+        .content{
             width: max-content;
+            display: block
+        }
+        .inner{
+            width: fit-content;
         }
  
  }
@@ -183,5 +195,12 @@ li::marker{
     .hut{
         width: max-content;
        }
+    .Img{
+        margin-left: 0px;
+    }
+    .card1,.card2{
+        height: 400px;
+        width: 565px;
+    }
 
 }

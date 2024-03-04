@@ -8,7 +8,7 @@
     margin-bottom: 400px;
 }
 .top{
-   
+    
     margin-left: 200px;
     margin-right: 100px;
     padding-left:0px;
@@ -171,14 +171,24 @@ p{
     font-size: x-small;
     width: 565px;
     margin-left: 100px;
+   
     
    }
+   .botto{
+    width:70vh;
+   }
+   .content{
+    width:10vh;
+   }
    .hut{
-    width: max-content;
+    width: max-content
    }
    .inner{
     width: max-content;
 }
+  .headop{
+    text-align: left;
+  }
 
 
 }
@@ -189,7 +199,7 @@ p{
         margin-left: 0px;
        
        }
-      
+       
        .hut{
         width: max-content;
         
@@ -200,16 +210,21 @@ p{
 
 
 }
-@media screen and (max-width: 425px){
+@media screen and (min-width:376px) and (max-width: 425px){
     .hut{
         width: max-content;
        }
        .inner{
         width: max-content;
     }
-
-
+    .content{
+         width:max-content;
+         height: max-content;
+       }
+    
 }
+
+
 @media screen and (max-width: 768px){
     .hut{
         width: max-content;
@@ -217,6 +232,9 @@ p{
     .inner{
         width: max-content;
     }
+    .content{
+        width:max-content;
+      }
 
 }
 

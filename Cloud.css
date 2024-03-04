@@ -212,10 +212,21 @@ h3:hover{
 }
 @media screen and (max-width: 320px) {
     .main{
-     font-size: x-small;
-     width: 565px;
-     margin-left: 100px;
+        font-size: x-small;
+        width: 565px;
+        margin-left: 100px;
+        -webkit-backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px);
      
+    }
+    .low{
+        width: 100%;
+    }
+    .char{
+        width:1000px;
+    }
+    .top{
+        backdrop-filter: blur(0px);
     }
     .ul{
         width: max-content;
@@ -225,7 +236,13 @@ h3:hover{
     }
     .hut{
      width:max-content;
-    }   
+    } 
+    .box{
+        flex-direction: column;
+        width: max-content;
+        justify-content: center;
+        align-items: center;
+    }  
  
  }
  @media screen and (max-width: 375px){
@@ -234,7 +251,12 @@ h3:hover{
          width:200%;
          margin-left: 0px;
          width: max-content;
+         -webkit-backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px);
         
+        }
+        .low{
+            width: 100%;
         }
        
         .hut{
@@ -262,20 +284,36 @@ h3:hover{
         .ul{
             width: max-content;
         }
- 
+        .low{
+            width: 200%;
+        }
  }
  @media screen and (max-width: 768px){
     .hut{
         width: max-content;
+        width: 323%;
        }
     .top{
         width: max-content;
+        text-align: left;
+    }
+    .high{
+        text-align: left;
     }
     .box{
         flex-direction: column;
+
     }
     .ul{
         width: max-content;
+    }
+    .low{
+        width: 322%;
+        
+    }
+    
+    .pp{
+        margin-left: 800px;
     }
 
 }

@@ -159,59 +159,90 @@ h3{
     border: solid;
 }
 
-@media screen and (max-width: 320px) {
-    html{
-        font-size: 10%;
-    }
-    .img{
-        height: 100px;
-    }
-    .Nak1{
-        height: 100px;
-        flex-direction: column-reverse;
-    }
-    .top{
-        font-size: xx-small ;
-       
-    }
-    .nav{
-        font-size: xx-small;
-    }
-    .write{
-        font-size: xx-small
-    }
-    .new{
-        font-size: xx-small;
-
-        margin-top: 30px;
-    }
-    .middle{
-        font-size: xx-small;
-    }
-    
-}
       
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
+  
     html{
+        
         font-size: 240%;
+        margin-right: 0rem;
     }
-    .nak1{
-
+    .imp{
+        width: fit-content;
+        margin-left: 0px;
     }
-
+    .img{
+        height: 150px;
+    }
+    .Nak1{
+        width: max-content;
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    .imp{
+        width: fit-content;
+    }
+    h2{
+        text-align: center;
+        
+    }
+    .top{
+        font-size: 100px;
+    }
+    
+ 
       
 }
 @media screen and (max-width: 425px) {
     html{
         font-size: 85%;
     }
+    .nak1{
+        width:300%;
+        margin-right: 0rem;
+    }
+    h2{
+        font-size:small;
+    }
       
 }
-@media screen and (max-width: 768px) {
-
+@media screen and (min-width:425px) and (max-width: 768px) {
+    .html{
+        font-size: 80%;
+    }
+    .Nak1{
+        width: 100%;
+       
+    }
+    h2{
+        font-size:small;
+    }
+    
       
 }
+@media screen and (min-width:768px)and (max-width: 1024px){
+    .Nak1{
+        margin-bottom: 100px;
+        font-size: small;
+        margin-left: 100px;
+    }
+    h2{
+        font-size:medium;
+    }
+    h3{
+        font-size: medium;
+    }
+    .new{
+        font-size: small;
+    }
+    .img{
+       height: 420px;
+    }
+    .mode{
+        margin-top: 100px;
+    }
+} 
 
 
 

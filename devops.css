@@ -180,11 +180,23 @@ h3:hover{
     
 }
 @media screen and (max-width: 320px){
-    .hut{
-        width: 100%;
+    .footer{
+        width: 20px;
     }
     .top{
         width: 100%;
+        margin-left: 0px;
+        margin-right: opx;
+    }
+    .new{
+        margin-left: 0px;
+    }
+    .switch{
+        margin-left: 10px;
+        margin-right: 120px;
+    }
+    .hut{
+        width: 10vh;
     }
 
 
@@ -200,7 +212,7 @@ h3:hover{
 @media screen and (max-width: 425px){
     .top{
        
-        width:max-content ;
+        width:max-content ; 
     }
     .hut{
         width: max-content;
@@ -213,9 +225,26 @@ h3:hover{
    width:max-content ;
 }
 .hut{
-    width: max-content;
+    width: 320vh;
+}
+.mem{
+    margin-left: 0px;
 }
 
     
+}
+@media screen and (max-width: 1024px){
+    .upper{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: max-content;
+    }
+    .hut{
+        width: 280vh;
+    }
+    .switch{
+        margin-right: 145px;
+    }
+
 }
 
